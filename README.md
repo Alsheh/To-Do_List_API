@@ -60,12 +60,12 @@ docker run --name todo -d -p 5000:5000 todo
         {
           "created_at": "2018-03-23T01:50:16.016712", 
           "description": "Task#1", 
-          "type": "COMPLETED"
+          "type": "TaskType.COMPLETED"
         }, 
         {
           "created_at": "2018-03-23T01:50:16.016717", 
           "description": "Task#2", 
-          "type": "UNCOMPLETED"
+          "type": "TaskType.UNCOMPLETED"
         }, 
         ...
       ]
@@ -82,7 +82,7 @@ docker run --name todo -d -p 5000:5000 todo
         {
           "created_at": "2018-03-23T01:50:16.016712", 
           "description": "Task#1", 
-          "type": "COMPLETED"
+          "type": "TaskType.COMPLETED"
         }, 
         ...
       ]
@@ -98,7 +98,7 @@ docker run --name todo -d -p 5000:5000 todo
         {
           "created_at": "2018-03-23T01:50:16.016717", 
           "description": "Task#2", 
-          "type": "UNCOMPLETED"
+          "type": "TaskType.UNCOMPLETED"
         }, 
         ...
       ]
