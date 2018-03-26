@@ -8,10 +8,9 @@ from todo.model.uncompleted import UncompletedTask, UncompletedTaskSchema
 from todo.model.task_type import TaskType
 
 app = Flask(__name__)
-client = MongoClient()
+client = MongoClient("mongodb://db:27017/data")
 db = client.todo_database
 tasks = db.tasks
-
 
 @app.route('/all-tasks')
 def get_all_tasks():

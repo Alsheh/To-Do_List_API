@@ -8,13 +8,9 @@ This to-do list API provides the following functionalities:
 * Retrieving uncompleted tasks.
 
 ## Docker
-1. To build a docker image:<br>
+To build and run a docker image:<br>
 ~~~
-docker build -t todo .
-~~~
-2. To run a new docker container:<br>
-~~~
-docker run --name todo -d -p 5000:5000 todo
+docker-compose up
 ~~~
 
 ## Interaction with the API (locally)
